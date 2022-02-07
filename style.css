@@ -10,7 +10,6 @@ body {
 li {
     text-decoration: none;
     list-style-type: none;
-    margin-top: -15px;
     margin-left: -35px;
 }
 
@@ -44,7 +43,7 @@ li {
     justify-content: space-between;
     padding: 5px 5px;
     min-width: 200px;
-    width: 200px;
+    width: 225px;
     border: 4px solid #d0cccc;
     background: -moz-linear-gradient(left, #074bb6, #2c7ccb);
     background-image: linear-gradient(to right, #074bb6, #2c7ccb);
@@ -56,16 +55,29 @@ li {
     margin: 0 2px;
 }
 .file-header {
-    padding: 5px 16px;
+    padding-top: 4px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 .file-name {
-    width: 80px;
+    width: 105px;
 }
 .file-window {
     background-color: #FFFFFF;
     height: 125px;
     padding: 5px 5px;
     border: 8px solid #d0cccc;
+}
+.projects {
+    margin-top: 0;
+}
+.spec-window {
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.project-spec {
+    width: 90px;
 }
 .logo-btn {
     background-color: #292929;
