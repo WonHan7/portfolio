@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Wonseok Han - Portfolio</title>
+    <title>Wonseok Han's Portfolio</title>
 
 </head>
 <body>
@@ -22,9 +22,26 @@
             <span class="slider round"></span>
         </label>
 
-        <div id="file-browser">
-            <div id="react-window">
-                
+        <!-- All project windows will be of class project-browser -->
+        <div class="project-browser" id="react">
+            <div class="window-header">
+                <div class="window-name">React</div>
+                <div class="window-function">                    
+                    <button id="min">_</button>
+                    <button id="max">🗖</button>
+                    <button id="exit">X</button>
+                </div>
+            </div>
+
+            <div class="file-header">
+                File Name: <input type="text" name="fileName" class="file-name" id="file-name" value="Project #1" readonly>
+                <button class="file-info">?</button>
+            </div>
+
+            <div class="file-window">
+                <ul>
+                    <li>Ramen Misoya Menu</li>
+                </ul>
             </div>
         </div>
         
